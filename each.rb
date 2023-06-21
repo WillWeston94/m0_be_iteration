@@ -3,7 +3,7 @@
   # b. Running the file in your Terminal. You can do this by running `ruby <filepath>`. If you are in this directory, you'd run `ruby each.rb`.
   
 # Challenge 1
-# Use the each method to print out a complete sentence stating the weather using the Array below:
+# Use the each method to print out a complete sentence stating the weather udsing the Array below:
 
 weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
@@ -17,7 +17,7 @@ end
 words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 words.each do |word|
-  if word.length > 3    # if statement to have word length > 3
+  if word.length < 3    # if statement to have word length > 3
   puts word             # prints out words > 3
   end                   # end your statement
 end
