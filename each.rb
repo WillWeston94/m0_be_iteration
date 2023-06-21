@@ -17,7 +17,7 @@ end
 words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 words.each do |word|
-  if word.length == 3    # if statement to have word length > 3
+  if word.length > 3    # if statement to have word length > 3
   puts word             # prints out words > 3
   end                   # end your statement
 end
